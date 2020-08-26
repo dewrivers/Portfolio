@@ -31,8 +31,6 @@ body
 }
 a{
     color: skyblue;
-    
-   
 }
 .h1{
     
@@ -61,8 +59,6 @@ padding: 20px;
 .footer
  {
     padding: 40px;
-    
-    
     text-align: center;
     background-color:#85d9f7;
     color: white;
@@ -75,16 +71,22 @@ padding: 20px;
 @media only screen and (max-width:980px){
    
     .container{
-        
         width: 100%;
     }
 }
 @media only screen and (max-width:768px){
 
     .container{
-        
         width: 100%;
     }
+
+    h3{
+        display: inline-block;
+    }
+    img{
+        display: inline-block;
+    }
+    
 }
 @media only screen and (max-width:640px){
     
@@ -92,8 +94,16 @@ padding: 20px;
        width: 100%;
     }
     .pict{
-        width: 100%;
+        width: 70%;
          text-align: center;
+         display: inline-block;
+    }
+
+    h3{
+        display: inline-block;
+    }
+    img{
+        display: inline-block;
     }
     
 }
